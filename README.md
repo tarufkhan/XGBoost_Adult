@@ -1,4 +1,4 @@
-## Predicts whether a person makes more than $50,000 or not using XGBoost.
+## Predicts whether a person makes more than $50K or not, using XGBoost.
 
 What we did here -
 * Import all the required libraries/modules.
@@ -9,9 +9,9 @@ What we did here -
 * On the basis of uniqueness of values in columns, we dropped 7 columns. And two columns are dropped which were containing most of the 0s.
 * Three columns were conatining '?'. so we converted those values into null and dropped those rows.
 * So, after all this we have dataset of 30718 rows and 8 columns.
-* Now we head to convert the categorical data into int type.
-* We have our target column named as 'Wage'. 1 represents the wage is above $50k and 0 states the wage is equal to $50k or less.
-* Plotted bar graphs to check the data distribution.
+* Now we convert the categorical data into int type.
+* We have our target column named as 'Wage'. 1 represents the wage is above $50k and 0 for the wage is equal to $50k or less.
+* Plot the bar graphs to check the data distribution.
 
 ![img1](/img/xg1.PNG)
 
@@ -29,6 +29,6 @@ What we did here -
 ![img3](/img/xg3.PNG)
 
 * AUC score is 73%
-* Last, the ROC curve -
+* Lastly, the ROC curve -
 
 ![img4](/img/xg4.PNG)
