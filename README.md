@@ -23,12 +23,12 @@ What we did here -
 * Further, split the data for training and testing process.
 * Use XGBClassifier with n_estimator=70 and max_depth=4 (can use other values for better accuracy score).
 * Also, use eval_metric='logloss' (Log loss penalizes false classifications by taking into account the probability of classification).
-* Model score on testing data is 82%. We got same accuracy on predicted data.
+* Model score on testing data is 83%. We got same accuracy on predicted data.
 * The confusion matrix -
 
 ![img3](/img/xg3.PNG)
 
-* AUC score is 73%
+* AUC score is 74%
 * Lastly, the ROC curve -
 
 ![img4](/img/xg4.PNG)
