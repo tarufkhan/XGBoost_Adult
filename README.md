@@ -1,4 +1,4 @@
-## Predicting whether a person makes more than $50,000 or not using XGBoost.
+## Predicts whether a person makes more than $50,000 or not using XGBoost.
 
 What we did here -
 * Import all the required libraries/modules.
