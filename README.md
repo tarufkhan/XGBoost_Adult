@@ -15,7 +15,7 @@ What we did here -
 
 ![img1](/img/xg1.PNG)
 
-Check for the outliers as well.
+* Check for the outliers as well.
 
 ![img2](/img/xg2.PNG)
 
