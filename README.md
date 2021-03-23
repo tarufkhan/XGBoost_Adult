@@ -10,7 +10,7 @@ What we did here -
 * Three columns were conatining '?'. so we converted those values into null and dropped those rows.
 * So, after all this we have dataset of 30718 rows and 8 columns.
 * Now we convert the categorical data into int type.
-* We have our target column named as 'Wage'. 1 represents the wage is above $50k and 0 for the wage is equal to $50k or less.
+* We have our target column named as 'Wage'. 1 represents the wage is above $50k and 0 for the wage equals to $50k or less.
 * Plot the bar graphs to check the data distribution.
 
 ![img1](/img/xg1.PNG)
